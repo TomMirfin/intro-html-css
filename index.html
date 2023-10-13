@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homer's Page</title>
   </head>
@@ -10,7 +11,12 @@
       <h1 id="title">Homer's Page</h1>
     </header>
     <main>
-      <section>
+      <section id = 'aboutHomer'>
+        <img
+        id = 'homerPhoto'
+        src="https://pyxis.nymag.com/v1/imgs/58e/3ab/2379dcdefe01f766ded13cb9a4e07c869b-18-homer-simpson.rsquare.w330.jpg"
+        alt="Image of Homer "
+      />
         <h2>About Homer</h2>
         <p>
           Hi I'm Homer I'm 39, I was born on either 12/5/56 or 15/6/1975
@@ -22,18 +28,20 @@
           whole world is Mo's Bar
         </p>
 
-        <img
-          src="https://pyxis.nymag.com/v1/imgs/58e/3ab/2379dcdefe01f766ded13cb9a4e07c869b-18-homer-simpson.rsquare.w330.jpg"
-          alt="Image of Homer "
-        />
+        <p>Homer Jay Simpson is a fictional character and the main protagonist of the American animated sitcom The Simpsons.[1] He is voiced by Dan Castellaneta and first appeared, along with the rest of his family, in The Tracey Ullman Show short "Good Night" on April 19, 1987. Homer was created and designed by cartoonist Matt Groening while he was waiting in the lobby of producer James L. Brooks's office. Groening had been called to pitch a series of shorts based on his comic strip Life in Hell but instead decided to create a new set of characters. He named the character after his father, Homer Groening. After appearing for three seasons on The Tracey Ullman Show, the Simpson family got their own series on Fox, which debuted December 17, 1989.</p>
+
+
       </section>
 
-      <section>
-        <h2>My favourite things</h2>
+      <section id="myFavouriteThings">
+        <h2>My Favourite Things</h2>
+
         <img
+          id = 'homerFootball'
           src="https://www.brooklynvegan.com/wp-content/uploads/2018/02/18/homer-simpson-football-1052x592.jpg"
           alt="Homer plaing football"
         />
+        <h4>Click the links below to find out more!</h4>
         <ol>
           <li>
             <a href="https://en.wikipedia.org/wiki/Duff_Beer"> Beer </a>
@@ -59,46 +67,70 @@
               Baseball</a
             >
           </li>
-          <li>Not Bart</li>
+          <li id="notBart">Not Bart</li>
         </ol>
+        
       </section>
+      <h2>About My Family</h2>
+      <article class='wrapper'>
 
-      <article>
-        <h2>About My Family</h2>
-        <section>
+        <section class="one">
           <h3>Marge</h3>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6T4KilxbJJR1AN-o26U3HO3abzjMu4yBZ6g&usqp=CAU"
+            id = margePhoto
+            src="https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png"
             alt="image of Marge Simpson"
           />
           <p>This is Marge my amazing wife.</p>
+          <p>Marjorie Jacqueline "Marge" Simpson (née Bouvier) is a character in the American animated sitcom The Simpsons and part of the eponymous family (The Simpsons). 
+            Voiced by Julie Kavner, she first appeared on television in The Tracey Ullman Show short "Good Night" on April 19, 1987. Marge was created and designed by cartoonist Matt Groening 
+            while he was waiting in the lobby of James L. Brooks' office. Groening had been called to pitch a series of shorts based on Life in Hell but instead decided to create a new set of characters. 
+            He based the character on his mother Margaret Groening. After appearing on The Tracey Ullman Show for three seasons, the Simpson family received their own series on Fox, which debuted December 17, 1989.</p>
         </section>
 
-        <section>
+
+        <section class="two">
           <h3>Lisa</h3>
-          <img
+          <img class = 'familyPhotos'
+            id = 'lisaPhoto'
             src="https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png"
             alt="Image of Lisa Simpson"
           />
           <p>This is Lisa my clever Daughter.</p>
+          <p>Lisa Marie Simpson is a fictional character in the animated television series The Simpsons. 
+            She is the middle child of the Simpson family. 
+            Voiced by Yeardley Smith, Lisa was born as a character in The Tracey Ullman Show short "Good Night" on April 19, 1987. 
+            Cartoonist Matt Groening created and designed her while waiting to meet James L. Brooks. Groening had been invited to pitch a series of shorts based on his comic Life in Hell, but instead decided to create a new set of characters. 
+            He named the older Simpson daughter after his younger sister Lisa Groening Bartlett. After appearing on The Tracey Ullman Show for three years, the Simpson family were moved to their own series on Fox, which debuted on December 17, 1989.</p>
         </section>
 
-        <section>
+        <section class="three">
           <h3>Maggie</h3>
-          <img
+          <img class = 'familyPhotos'
             src="https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png"
             alt="Maggie Simpson"
           />
           <p>This Maggie the apple of my eye</p>
+          <p>Margaret Evelyn Lenny "Maggie" Simpson[1][2] is a fictional character in the animated television series The Simpsons and the youngest member of the Simpson family. 
+            She first appeared on television in the Tracey Ullman Show short "Good Night" on April 19, 1987. 
+            Maggie was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office. 
+            She received her first name from Groening's youngest sister. After appearing on The Tracey Ullman Show for three years, 
+            the Simpson family was given their own series on the Fox Broadcasting Company which debuted December 17, 1989.</p>
         </section>
 
-        <section>
-          <h2>Bart</h2>
-          <img
+        <section class="four">
+          <h3>Bart</h3>
+          <img class = 'familyPhotos'
             src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png"
             alt="Bart Simpson"
           />
           <p>Don't talk to me about Bart.</p>
+          <p>Bartholomew Jojo "Bart" Simpson is a fictional character in the American animated television series The Simpsons and part of the Simpson family. 
+            He is voiced by Nancy Cartwright and first appeared on television in The Tracey Ullman Show short "Good Night" on April 19, 1987. 
+            Cartoonist Matt Groening created and designed Bart while waiting in the lobby of James L. Brooks' office. Groening had been called to pitch a series of shorts based on his comic strip, 
+            Life in Hell, but instead decided to create a new set of characters. While the rest of the characters were named after Groening's family members, 
+            Bart's name is an anagram of the word brat. After appearing on The Tracey Ullman Show for two years, the Simpson family received its own series on Fox, 
+            which debuted December 17, 1989. Bart has appeared in every Simpsons episode except "Four Great Women and a Manicure".</p>
         </section>
       </article>
     </main>
@@ -116,7 +148,7 @@
           </li>
           <li>
             <button type="button">
-              <a href="#title"> Link to top of page </a>
+              <a href="#title"> Link to the top of page </a>
             </button>
           </li>
         </ul>
