@@ -1,127 +1,136 @@
 * {
-    background-color: #000066;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    color: white
+  background-color: #000066;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  color: white;
 }
 
-
-
 img {
-    width: 500px;
+  width: 500px;
 }
 
 .familyPhotos {
-    width: 250px;
-    
+  width: 250px;
 }
 
 #margePhoto {
-    width: 150px;
-    height: 75 px;}
+  width: 150px;
+  height: 75 px;
+}
 
 #homerPhoto {
-    border: 10px;
-    border-color: black;
-    border-style: double;
-    border-radius: 100%;
+  border: 10px;
+  border-color: black;
+  border-style: double;
+  border-radius: 100%;
 }
 
 h1 {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    border-top: 20px;
-    border-color: white;
-    border-top-style: solid;
-    margin-left: -100px;
-    margin-right: -100px;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border-top: 20px;
+  border-color: white;
+  border-top-style: solid;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
 ol a {
-    font-size: x-large;
-    text-decoration: none;
-    color: inherit
+  font-size: x-large;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-    list-style-type: none;
-
+  list-style-type: none;
 }
 
 ol {
-
-    list-style-position: outside;
-    font-size: x-large;
-    display: inline-block
-    
-
+  list-style-position: outside;
+  font-size: x-large;
+  display: inline-block;
 }
 
 ol li {
-    text-align: left;
+  text-align: left;
 }
 
 #notBart {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 #homerFootball {
-    border: 10px;
-    border-color: black;
-    border-style: double;
-    border-radius: 10%;
+  border: 10px;
+  border-color: black;
+  border-style: double;
+  border-radius: 10%;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 200px, 200px, 200px;
-    gap: 15px;
+  display: grid;
+  grid-template-columns: 200px, 200px, 200px;
+  gap: 15px;
 }
 
 .one {
-    grid-column: 1;
-    grid-row: 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .two {
-    grid-column: 2;
-    grid-row: 1;
-
+  grid-column: 2;
+  grid-row: 1;
 }
 
 #lisaPhoto {
-    padding-bottom: 55px;
+  padding-bottom: 55px;
 }
 
 button a {
-    font-size: x-large;
-    background-color: lightblue;
-    border-radius: 20px;
-    color: white
+  font-size: x-large;
+  background-color: lightblue;
+  border-radius: 20px;
+  color: white;
 }
 
 button {
-    padding: 15px;
-    background-color: lightblue;
-    border-radius: 20px;
-
+  padding: 15px;
+  background-color: lightblue;
+  border-radius: 20px;
 }
 button:hover {
-    background-color: blue;
-    box-shadow: inset;
+  background-color: blue;
+  box-shadow: inset;
 }
 
 button a:hover {
-    font-size: x-large;
-    background-color: blue;
-    border-radius: 20px;
-    color: white
+  font-size: x-large;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 900px) {
+  .two {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    text-overflow: inherit;
+  }
+  img {
+    width: 50%;
+  }
+  h2 {
+    align-items: center;
+  }
+  body {
+    width: 100vw;
+    margin: 20px;
+  }
 }
