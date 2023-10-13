@@ -1,8 +1,9 @@
 * {
-    background-color: lightgray;
+    background-color: #000066;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
+    color: white
 }
 
 
@@ -37,10 +38,11 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-top: 20px;
-    border-color: green;
+    border-color: white;
     border-top-style: solid;
-    margin: 0px;
-    overflow: visible
+    margin-left: -100px;
+    margin-right: -100px;
+
 }
 
 ol a {
@@ -101,18 +103,25 @@ ol li {
 
 button a {
     font-size: x-large;
-    background-color: green;
+    background-color: lightblue;
     border-radius: 20px;
     color: white
 }
 
 button {
     padding: 15px;
-    background-color: green;
+    background-color: lightblue;
     border-radius: 20px;
 
 }
 button:hover {
-    background-color: darkgreen;
+    background-color: blue;
     box-shadow: inset;
+}
+
+button a:hover {
+    font-size: x-large;
+    background-color: blue;
+    border-radius: 20px;
+    color: white
 }
